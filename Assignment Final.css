@@ -1,0 +1,86 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    min-width: none;
+}
+
+.container{
+    max-width: none;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.container header{
+    background-image: url("anh80.png");
+    background-size: 100% 100%;
+    height: 100px;
+    padding-bottom: 25%;
+}
+
+.container nav{
+
+    background-color: rgba(192, 212, 239, 0.815);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-variant: small-caps;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; 
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.container nav a{
+    color:rgb(7, 133, 126);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 35px;
+}
+
+.container nav a:hover{
+    color: rgb(168, 27, 22);
+    text-decoration: underline;
+}
+
+.container article{
+    min-height: 405px;
+    width: 75%;
+    background-color: rgb(95, 111, 255);
+    float: left;
+}
+
+.container aside{
+    min-height: 405px;
+    width: 25%;
+    background-color: rgb(152, 239, 244);
+    float:right;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+
+.container aside a{
+    color:rgb(234, 31, 112);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.container footer{
+    border-top: 5px double rgb(240, 29, 29);
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear:both;
+}
+
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+
